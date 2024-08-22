@@ -1,0 +1,1 @@
+/usr/bin/c++ --coverage CMakeFiles/test.dir/test/tester.cpp.o CMakeFiles/test.dir/test/triangletest.cpp.o CMakeFiles/test.dir/test/hailstonetest.cpp.o CMakeFiles/test.dir/src/testsubject.cpp.o CMakeFiles/test.dir/src/Triangle.cpp.o CMakeFiles/test.dir/src/Hailstone.cpp.o -o bin/test  lib/libgtest.a lib/libgtest_main.a lib/libgtest.a -lpthread 

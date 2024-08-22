@@ -1,0 +1,19 @@
+        -:    0:Source:/class/classes/alamp009/lab-6-code-coverage-lab-6-varor004-alamp009/src/testsubject.cpp
+        -:    0:Graph:testsubject.cpp.gcno
+        -:    0:Data:testsubject.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "../lib/testsubject.h"
+        -:    2:
+        7:    3:bool TestSubject::isEven(int x) {
+        7:    4:    return (x % 2 == 0);
+        -:    5:}
+        -:    6:
+        4:    7:int TestSubject::square(int x) {
+        4:    8:    if (isEven(x)) {
+        2:    9:        return x * x;
+        -:   10:    } else {
+        -:   11:        // Intentionally made wrong
+        2:   12:        return x * x;
+        -:   13:    }
+        -:   14:}
